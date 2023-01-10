@@ -1,0 +1,89 @@
+header {
+	background-color: #FAFAFA;
+	border-bottom: 1px solid #ccc;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 20;
+}
+.profile
+{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	padding: 5px;
+}
+.container
+{
+	position: relative;
+	overflow: scroll;
+}
+#header_link
+{
+	display:inline-block;
+	margin-left: 30%;
+	margin-right: 5%;
+	text-align: center;
+	font-size: 25px;
+	box-sizing: border-box;
+	padding: 20px;
+}
+.pagination
+{
+	text-align: center;
+	padding: 5px;
+}
+#header_link:hover
+{
+	background-color: aqua;
+}
+.container
+{
+	background-color: white;
+	padding-top: 50px;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	top: 53px;
+}
+.card
+{
+	position: relative;
+	margin: 0 auto;
+	width: 570px;
+	height: 570px;
+	background-color: #FFF;
+	border-radius: 5px;
+	padding: 10px;
+}
+.card-header
+{
+	height: 13%;
+	background: beige;
+	width: 100%;
+}
+.media
+{
+	background: darkgray;
+	width: 99.9%;
+	height: 70%;
+}
+.card-footer
+{
+	height: 19%;
+	bottom: 0;
+	width: 99.99%;
+	background: #CCC;
+}
+.no_content
+{
+	margin-left: auto;
+	margin-right: auto;
+	background: red;
+	text-align: center;
+	font-weight: 500;
+	border-radius: 10px;
+	width: 500px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
